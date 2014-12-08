@@ -1,4 +1,4 @@
-Silex JsonBodyPovider
+Silex JSON body provider
 ===========
 
 A Silex service provider for JSON body parsing.
