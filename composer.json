@@ -1,0 +1,28 @@
+{
+    "name": "kumatch/silex-json-body-provider",
+    "description":"A Silex service provider for JSON body parsing.",
+    "type":"library",
+    "homepage": "https://github.com/kumatch/silex-json-body-provider",
+    "keywords":["silex", "provider", "json", "request", "body"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Yosuke Kumakura",
+            "homepage": "https://github.com/kumatch"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "silex/silex": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.*",
+        "symfony/browser-kit": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kumatch\\Silex\\": "src/"
+        }
+    }
+}
